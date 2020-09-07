@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_tambah"
+        android:orderInCategory="100"
+        android:title="@string/action_tambah"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tambah_survey"
+        android:orderInCategory="100"
+        android:title="@string/action_tambah_survey"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_faq"
+        android:orderInCategory="100"
+        android:title="@string/action_faq"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:title="Question"
+                android:id="@+id/question"></item>
+            <item android:title="Recommendation"
+                android:id="@+id/recommendation"></item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_account"
+        android:orderInCategory="100"
+        android:title="@string/action_account"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:title="All Account"
+                android:id="@+id/profile"></item>
+            <item android:title="Logout"
+                android:id="@+id/logout"></item>
+        </menu>
+    </item>
+</menu>
